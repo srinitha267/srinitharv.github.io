@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinitha | Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="SRINITHA CV.pdf" target="_blank" class="resume-btn">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>R V SRINITHA</h1>
+            <h2>DATA ANALYST</h2>
+            <p>Building the tech of tomorrow – today</p>
+        </div>
+        <div class="hero-image">
+            <img src="image1.jpeg" alt="R V SRINITHA">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I'm a passionate engineering student (expected graduation: 2026) specializing in Data Analysis. While I may not have professional experience yet, I've developed strong skills in Java through academic projects and self-learning.</p>
+            <p>My background includes [brief education/career highlights]. When I'm not working, I enjoy [personal interests/hobbies].</p>
+            <div class="skills">
+                <div class="skills">
+                    <h3>Technical Proficiencies</h3>
+                    <ul>
+                        <li><i class="fas fa-code"></i> Programming: Python, Java</li>
+                        <li><i class="fas fa-database"></i> Databases: MySQL, MongoDB</li>
+                        <li><i class="fas fa-cloud"></i> Web Technologies: HTML/CSS, JavaScript</li>
+                        <li><i class="fas fa-chart-bar"></i> Currently Learning: Power BI, Data Visualization</li>
+                        <li><i class="fas fa-project-diagram"></i> Tools: Git, VS Code, Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2>Academic Journey</h2>
+        <div class="timeline-container">
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology in Information Technology</h3>
+                        <p class="date">2022 - 2026</p>
+                        <p class="details">Current CGPA: 7.81 (Till 6th Sem) | PSNACET, Dindigul</p>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Higher Secondary Education</h3>
+                        <p class="date">2020 - 2022</p>
+                        <p class="details">12th Grade: 67% | Veveaham HSS, Dindigul</p>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Secondary Education</h3>
+                        <p class="date">2019 - 2020</p>
+                        <p class="details">10th Grade: 63% | Veveaham HSS, Dindigul</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Helium-Assisted Emergency Drone (Concept)</h3>
+                <p>A theoretical design for drones using helium assistance to extend flight time during emergency situations. Developed system architecture and conducted feasibility studies as part of academic research.</p>
+                <!--<div class="project-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>-->
+            </div>
+            <div class="project-card">
+                <h3>CertiFraud - Certificate Verification</h3>
+                <p>A blockchain-based concept for secure certificate verification during background checks. Designed the framework to prevent document tampering using decentralized verification methods.</p>
+                <!--<div class="project-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Get In Touch</h2>
+        <form action="https://formsubmit.co/venkatsri0026e@gmail.com" id="contact-form" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://srinitha267.github.io/thank-you.html">
+            <input type="hidden" name="_subject" value="New portfolio message!">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+            <div id="form-message"></div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Srinitha. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/srinitha-r-v?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/srinitha267" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
